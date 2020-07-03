@@ -5,6 +5,7 @@ import { AppComponent } from './app.component';
 import { AppRoutingModule } from './app-routing.module';
 import { DashboardModule } from './dashboard';
 import { ConverterModule } from './converter';
+import { TicTacToeModule } from './tic-tac-toe';
 
 @NgModule({
   declarations: [
@@ -14,6 +15,7 @@ import { ConverterModule } from './converter';
     BrowserModule,
     DashboardModule,
     ConverterModule,
+    TicTacToeModule,
     AppRoutingModule
   ],
   providers: [],
