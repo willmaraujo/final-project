@@ -1,0 +1,11 @@
+ng new final-project
+npm install bootstrap
+npm install jquery
+=> change angular.json (styles, scripts)
+=> insert google chart js in index .html
+ng g module app-routing
+=> put file in root and change the file content
+=> added AppRoutingModule in imports from app.module.ts
+=> added <router-outlet></router-outlet> in app.component.html
+=> copy dashboard module to current project
+
